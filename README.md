@@ -196,11 +196,13 @@ In Lesson 5, we'll explore Ava's Vision pipeline, breaking down the two main com
 
 ---
 
-### 📱 Lesson 6: Ava installs Whatsapp
+### [📱 Lesson 6: Ava installs Whatsapp](https://theneuralmaze.substack.com/p/connecting-an-ai-agent-to-whatsapp)
 
-Date: **2025-03-12**
+Ready for the grand finale? In this last lesson, we'll show you how to get your LangGraph app up and running on Google Cloud Run and hook it up to WhatsApp through a Meta App.
 
-> WIP ... 👷
+Once you're done, you'll have your very own Ava chatting with you on WhatsApp! Pretty cool, right?
+
+> 🔗 Article ✨ [Ava installs Whatsapp](https://theneuralmaze.substack.com/p/connecting-an-ai-agent-to-whatsap)
 
 <div align="center">
   <a href="https://youtu.be/dFsI4lnUkKo">

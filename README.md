@@ -89,27 +89,27 @@ This course is divided into 6 lessons. Each lesson is a step forward in building
 
 ### Written Lessons
 
-| Lesson | Article Link                                                                 |
-|--------|------------------------------------------------------------------------------|
-| [Lesson 1: Project overview](https://theneuralmaze.substack.com/p/meet-ava-the-whatsapp-agent) | [![Read the article](img/lesson1.gif)](https://theneuralmaze.substack.com/p/meet-ava-the-whatsapp-agent) |
-| [Lesson 2: Dissecting Ava's brain](https://theneuralmaze.substack.com/p/dissecting-avas-brain) | [![Read the article](img/lesson2.gif)](https://theneuralmaze.substack.com/p/dissecting-avas-brain) |
-| [Lesson 3: Unlocking Ava's memories](https://theneuralmaze.substack.com/p/can-agents-get-nostalgic-about-the) | [![Read the article](img/lesson3.gif)](https://theneuralmaze.substack.com/p/can-agents-get-nostalgic-about-the) |
-| [Lesson 4: Giving Ava a Voic](https://theneuralmaze.substack.com/p/the-ultimate-ai-voice-pipeline) | [![Read the article](img/lesson4.gif)](https://theneuralmaze.substack.com/p/the-ultimate-ai-voice-pipeline) |
-| [Lesson 5: Ava learns to see](https://theneuralmaze.substack.com/p/reading-images-drawing-dreams-vlms) | [![Read the article](img/lesson5.gif)](https://theneuralmaze.substack.com/p/reading-images-drawing-dreams-vlms) |
-| [Lesson 6: Ava installs Whatsapp](https://theneuralmaze.substack.com/p/connecting-an-ai-agent-to-whatsap) | [![Read the article](img/lesson6.gif)](https://theneuralmaze.substack.com/p/connecting-an-ai-agent-to-whatsap) |
+| Lesson | Article Link |
+|--------|--------------|
+| [Lesson 1: Project overview](https://theneuralmaze.substack.com/p/meet-ava-the-whatsapp-agent) | <a href="https://theneuralmaze.substack.com/p/meet-ava-the-whatsapp-agent"><img src="img/lesson1.gif" width="300" alt="Read the article"/></a> |
+| [Lesson 2: Dissecting Ava's brain](https://theneuralmaze.substack.com/p/dissecting-avas-brain) | <a href="https://theneuralmaze.substack.com/p/dissecting-avas-brain"><img src="img/lesson2.gif" width="300" alt="Read the article"/></a> |
+| [Lesson 3: Unlocking Ava's memories](https://theneuralmaze.substack.com/p/can-agents-get-nostalgic-about-the) | <a href="https://theneuralmaze.substack.com/p/can-agents-get-nostalgic-about-the"><img src="img/lesson3.gif" width="300" alt="Read the article"/></a> |
+| [Lesson 4: Giving Ava a Voice](https://theneuralmaze.substack.com/p/the-ultimate-ai-voice-pipeline) | <a href="https://theneuralmaze.substack.com/p/the-ultimate-ai-voice-pipeline"><img src="img/lesson4.gif" width="300" alt="Read the article"/></a> |
+| [Lesson 5: Ava learns to see](https://theneuralmaze.substack.com/p/reading-images-drawing-dreams-vlms) | <a href="https://theneuralmaze.substack.com/p/reading-images-drawing-dreams-vlms"><img src="img/lesson5.gif" width="300" alt="Read the article"/></a> |
+| [Lesson 6: Ava installs Whatsapp](https://theneuralmaze.substack.com/p/connecting-an-ai-agent-to-whatsap) | <a href="https://theneuralmaze.substack.com/p/connecting-an-ai-agent-to-whatsap"><img src="img/lesson6.gif" width="300" alt="Read the article"/></a> |
 
 ---
 
 ### Video Lessons
 
-| Lesson | Video Link                                                                 |
-|--------|----------------------------------------------------------------------------|
-| [Lesson 1: Project overview](https://youtu.be/u5y06cFK2WA?si=RCx__sJNtr2DYf0U) | [![Watch the video](img/video_thumbnails/thumbnail_1_play.png)](https://youtu.be/u5y06cFK2WA?si=RCx__sJNtr2DYf0U) |
-| [Lesson 2: Dissecting Ava's brain](https://youtu.be/nTsLL3htkCU?si=aSmSkpL-U3rzw9Za) | [![Watch the video](img/video_thumbnails/thumbnail_2_play.png)](https://youtu.be/nTsLL3htkCU?si=aSmSkpL-U3rzw9Za) |
-| [Lesson 3: Unlocking Ava's memories](https://youtu.be/oTHqYEpdFXg?si=MXEvjUJ8Xbc6h9l2) | [![Watch the video](img/video_thumbnails/thumbnail_3_play.png)](https://youtu.be/oTHqYEpdFXg?si=MXEvjUJ8Xbc6h9l2) |
-| [Lesson 4: Giving Ava a Voice](https://youtu.be/RNmwvMjtIt0) | [![Watch the video](img/video_thumbnails/thumbnail_4_play.png)](https://youtu.be/RNmwvMjtIt0) |
-| [Lesson 5: Ava learns to see](https://youtu.be/LS7k-XFBbeo) | [![Watch the video](img/video_thumbnails/thumbnail_5_play.png)](https://youtu.be/LS7k-XFBbeo) |
-| [Lesson 6: Ava installs Whatsapp](https://youtu.be/dFsI4lnUkKo) | [![Watch the video](img/video_thumbnails/thumbnail_6_play.png)](https://youtu.be/dFsI4lnUkKo) |
+| Lesson | Video Link |
+|--------|------------|
+| [Lesson 1: Project overview](https://youtu.be/u5y06cFK2WA?si=RCx__sJNtr2DYf0U) | <a href="https://youtu.be/u5y06cFK2WA?si=RCx__sJNtr2DYf0U"><img src="img/video_thumbnails/thumbnail_1_play.png" width="300" alt="Watch the video"/></a> |
+| [Lesson 2: Dissecting Ava's brain](https://youtu.be/nTsLL3htkCU?si=aSmSkpL-U3rzw9Za) | <a href="https://youtu.be/nTsLL3htkCU?si=aSmSkpL-U3rzw9Za"><img src="img/video_thumbnails/thumbnail_2_play.png" width="300" alt="Watch the video"/></a> |
+| [Lesson 3: Unlocking Ava's memories](https://youtu.be/oTHqYEpdFXg?si=MXEvjUJ8Xbc6h9l2) | <a href="https://youtu.be/oTHqYEpdFXg?si=MXEvjUJ8Xbc6h9l2"><img src="img/video_thumbnails/thumbnail_3_play.png" width="300" alt="Watch the video"/></a> |
+| [Lesson 4: Giving Ava a Voice](https://youtu.be/RNmwvMjtIt0) | <a href="https://youtu.be/RNmwvMjtIt0"><img src="img/video_thumbnails/thumbnail_4_play.png" width="300" alt="Watch the video"/></a> |
+| [Lesson 5: Ava learns to see](https://youtu.be/LS7k-XFBbeo) | <a href="https://youtu.be/LS7k-XFBbeo"><img src="img/video_thumbnails/thumbnail_5_play.png" width="300" alt="Watch the video"/></a> |
+| [Lesson 6: Ava installs Whatsapp](https://youtu.be/dFsI4lnUkKo) | <a href="https://youtu.be/dFsI4lnUkKo"><img src="img/video_thumbnails/thumbnail_6_play.png" width="300" alt="Watch the video"/></a> |
 
 ---
 

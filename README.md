@@ -1,5 +1,5 @@
 <p align="center">
-        <img alt="logo" src="img/project_overview_diagram.gif" width=600 />
+        <img alt="logo" src="img/ava_final_design.gif" width=1000 />
     <h1 align="center">📱 Ava 📱</h1>
     <h3 align="center">Turning the Turing Test into a WhatsApp Agent</h3>
 </p>
@@ -83,132 +83,33 @@ Excited? Let's get started!
 
 ## Course Outline
 
-This course is divided into 6 lessons. Each lesson is a step forward in building Ava, and it has a written and video version. 
-
-These two versions are complementaty, so we recommend you to go through both, as it will improve your learning experience. Don't forget to check the [Before we start](#before-we-start) section to get everything ready for the course.
+This course is divided into 6 lessons. Each lesson is a step forward in building Ava, and it has a written and video version. These two versions are complementary, so we recommend you to go through both, as it will improve your learning experience. Don't forget to check the [Before we start](#before-we-start) section to get everything ready for the course.
 
 ---
 
-### 🛠️ Lesson 0: Before we begin
+### Written Lessons
 
-This project uses a lot of services and tools, so we need to get everything ready before we start. Follow the instructions in [this document](docs/before_we_begin.md).
-
----
-
-### [🏗️ Lesson 1: Project overview](https://theneuralmaze.substack.com/p/meet-ava-the-whatsapp-agent)
-
-Date: **2025-02-05**
-
-<p align="center">
-        <img alt="lesson1" src="img/lesson1.png" width=400 />
-</p>
-
-The first lesson is about getting to know the project and its general structure. 
-
-> 🔗 Article ✨ [Meet Ava - The WhatsApp Agent](https://theneuralmaze.substack.com/p/meet-ava-the-whatsapp-agent)
-
-<div align="center">
-  <a href="https://youtu.be/u5y06cFK2WA?si=RCx__sJNtr2DYf0U">
-    <img src="img/video_thumbnails/thumbnail_1_play.png" alt="Watch the video" width=400/>
-  </a>
-</div>
+| Lesson | Article Link                                                                 |
+|--------|------------------------------------------------------------------------------|
+| [Lesson 1: Project overview](https://theneuralmaze.substack.com/p/meet-ava-the-whatsapp-agent) | [![Read the article](img/lesson1.gif)](https://theneuralmaze.substack.com/p/meet-ava-the-whatsapp-agent) |
+| [Lesson 2: Dissecting Ava's brain](https://theneuralmaze.substack.com/p/dissecting-avas-brain) | [![Read the article](img/lesson2.gif)](https://theneuralmaze.substack.com/p/dissecting-avas-brain) |
+| [Lesson 3: Unlocking Ava's memories](https://theneuralmaze.substack.com/p/can-agents-get-nostalgic-about-the) | [![Read the article](img/lesson3.gif)](https://theneuralmaze.substack.com/p/can-agents-get-nostalgic-about-the) |
+| [Lesson 4: Giving Ava a Voic](https://theneuralmaze.substack.com/p/the-ultimate-ai-voice-pipeline) | [![Read the article](img/lesson4.gif)](https://theneuralmaze.substack.com/p/the-ultimate-ai-voice-pipeline) |
+| [Lesson 5: Ava learns to see](https://theneuralmaze.substack.com/p/reading-images-drawing-dreams-vlms) | [![Read the article](img/lesson5.gif)](https://theneuralmaze.substack.com/p/reading-images-drawing-dreams-vlms) |
+| [Lesson 6: Ava installs Whatsapp](https://theneuralmaze.substack.com/p/connecting-an-ai-agent-to-whatsap) | [![Read the article](img/lesson6.gif)](https://theneuralmaze.substack.com/p/connecting-an-ai-agent-to-whatsap) |
 
 ---
 
-### [🕸️ Lesson 2: Dissecting Ava's brain](https://theneuralmaze.substack.com/p/dissecting-avas-brain)
+### Video Lessons
 
-Date: **2025-02-12**
-
-<p align="center">
-        <img alt="lesson2" src="img/lesson2.png" width=400 />
-</p>
-
-Lesson 2 is about LangGraph. Simple as that. You'll learn about graphs, state, nodes and edges and understand how Ava's "brain" actually works.
-
-> 🔗 Article ✨ [Dissecting Ava's brain](https://theneuralmaze.substack.com/p/dissecting-avas-brain)
-
-<div align="center">
-  <a href="https://youtu.be/nTsLL3htkCU?si=aSmSkpL-U3rzw9Za">
-    <img src="img/video_thumbnails/thumbnail_2_play.png" alt="Watch the video" width=400/>
-  </a>
-</div>
-
----
-
-### [🧠 Lesson 3: Unlocking Ava's memories](https://theneuralmaze.substack.com/p/can-agents-get-nostalgic-about-the)
-        
-Date: **2025-02-19**
-
-<p align="center">
-        <img alt="lesson3" src="img/lesson3.png" width=400 />
-</p>
-
-In Lesson 3, we will explore Ava's memory system, both the short-term memory (Sqlite) and the long-term memory (Qdrant).
-
-> 🔗 Article ✨ [Unlocking Ava's memories](https://theneuralmaze.substack.com/p/can-agents-get-nostalgic-about-the)
-
-<div align="center">
-  <a href="https://youtu.be/oTHqYEpdFXg?si=MXEvjUJ8Xbc6h9l2">
-    <img src="img/video_thumbnails/thumbnail_3_play.png" alt="Watch the video" width=400/>
-  </a>
-</div>
-
----
-
-### [🗣️ Lesson 4: Giving Ava a Voice](https://theneuralmaze.substack.com/p/the-ultimate-ai-voice-pipeline)
-
-Date: **2025-02-26**
-
-<p align="center">
-        <img alt="lesson4" src="img/lesson4.png" width=400 />
-</p>
-
-In Lesson 4, we'll explore Ava's Voice pipeline, breaking down the two key systems: STT (speech-to-text) and TTS (text-to-speech).
-
-> 🔗 Article ✨ [Giving Ava a voice](https://theneuralmaze.substack.com/p/the-ultimate-ai-voice-pipeline)
-
-
-<div align="center">
-  <a href="https://youtu.be/RNmwvMjtIt0">
-    <img src="img/video_thumbnails/thumbnail_4_play.png" alt="Watch the video" width=400/>
-  </a>
-</div>
-
----
-
-### [👀 Lesson 5: Ava learns to see](https://theneuralmaze.substack.com/p/reading-images-drawing-dreams-vlms)
-
-Date: **2025-03-05**
-
-<p align="center">
-        <img alt="lesson5" src="img/lesson5.png" width=400 />
-</p>
-
-In Lesson 5, we'll explore Ava's Vision pipeline, breaking down the two main components: VLMs for image description / understanding and Diffusion Models for image generation.
-
-> 🔗 Article ✨ [Ava learns to see](https://theneuralmaze.substack.com/p/reading-images-drawing-dreams-vlms)
-
-<div align="center">
-  <a href="https://youtu.be/LS7k-XFBbeo">
-    <img src="img/video_thumbnails/thumbnail_5_play.png" alt="Watch the video" width=400/>
-  </a>
-</div>
-
----
-
-### [📱 Lesson 6: Ava installs Whatsapp](https://theneuralmaze.substack.com/p/connecting-an-ai-agent-to-whatsapp)
-
-Ready for the grand finale? In this last lesson, we'll show you how to get your LangGraph app up and running on Google Cloud Run and hook it up to WhatsApp through a Meta App.
-
-Once you're done, you'll have your very own Ava chatting with you on WhatsApp! Pretty cool, right?
-
-> 🔗 Article ✨ [Ava installs Whatsapp](https://theneuralmaze.substack.com/p/connecting-an-ai-agent-to-whatsap)
-
-<div align="center">
-  <a href="https://youtu.be/dFsI4lnUkKo">
-    <img src="img/video_thumbnails/thumbnail_6_play.png" alt="Watch the video" width=400/>
-  </a>
-</div>
+| Lesson | Video Link                                                                 |
+|--------|----------------------------------------------------------------------------|
+| [Lesson 1: Project overview](https://youtu.be/u5y06cFK2WA?si=RCx__sJNtr2DYf0U) | [![Watch the video](img/video_thumbnails/thumbnail_1_play.png)](https://youtu.be/u5y06cFK2WA?si=RCx__sJNtr2DYf0U) |
+| [Lesson 2: Dissecting Ava's brain](https://youtu.be/nTsLL3htkCU?si=aSmSkpL-U3rzw9Za) | [![Watch the video](img/video_thumbnails/thumbnail_2_play.png)](https://youtu.be/nTsLL3htkCU?si=aSmSkpL-U3rzw9Za) |
+| [Lesson 3: Unlocking Ava's memories](https://youtu.be/oTHqYEpdFXg?si=MXEvjUJ8Xbc6h9l2) | [![Watch the video](img/video_thumbnails/thumbnail_3_play.png)](https://youtu.be/oTHqYEpdFXg?si=MXEvjUJ8Xbc6h9l2) |
+| [Lesson 4: Giving Ava a Voice](https://youtu.be/RNmwvMjtIt0) | [![Watch the video](img/video_thumbnails/thumbnail_4_play.png)](https://youtu.be/RNmwvMjtIt0) |
+| [Lesson 5: Ava learns to see](https://youtu.be/LS7k-XFBbeo) | [![Watch the video](img/video_thumbnails/thumbnail_5_play.png)](https://youtu.be/LS7k-XFBbeo) |
+| [Lesson 6: Ava installs Whatsapp](https://youtu.be/dFsI4lnUkKo) | [![Watch the video](img/video_thumbnails/thumbnail_6_play.png)](https://youtu.be/dFsI4lnUkKo) |
 
 ---
 

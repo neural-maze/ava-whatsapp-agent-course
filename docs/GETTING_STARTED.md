@@ -1,22 +1,47 @@
-# UV Installation
+# 1. Clone the repository
+
+First thing first, clone the repository.
+
+```
+git clone https://github.com/neural-maze/ava-whatsapp-agent-course.git
+cd ava-whatsapp-agent-course
+```
+
+# 2. Install uv
 
 Instead of `pip` or `poetry`, we are using `uv` as the Python package manager. 
 
 To install uv, simply follow this [instructions](https://docs.astral.sh/uv/getting-started/installation/). 
 
-Once uv is intalled, you can install the project dependencies by running:
+# 3. Install the project dependencies
 
-> **Note:**: We recommend creating  a virtual environment to avoid conflicts with your system Python.
+Once uv is intalled, you can install the project dependencies. First of all, let's create a virtual environment.
 
 ```bash
-uv sync
+uv venv .venv
+. .venv/bin/activate # or source .venv/bin/activate
+uv pip install -e .
+```
+Just to make sure that everything is working, simply run the following command:
+
+```bash
+ uv run python --version
 ```
 
-Now that all the dependencies are installed, it's time to populate the `.env` file with the correct values.
+The Python version should be `Python 3.12.8`.
+
 
 # Environment Variables
 
-If you take a look at the `.env.example` file, you will see that there are a lot of variables that need to be set.
+Now that all the dependencies are installed, it's time to populate the `.env` file with the correct values.
+To help you with this, we have created a `.env.example` file that you can use as a template.
+
+```
+cp .env.example .env
+```
+
+Now, you can open the `.env` file with your favorite text editor and set the correct values for the variables.
+You'll notice there are a lot of variables that need to be set.
 
 ```
 GROQ_API_KEY=""
@@ -34,7 +59,8 @@ WHATSAPP_TOKEN = ""
 WHATSAPP_VERIFY_TOKEN = ""
 ```
 
-In this doc, we will show you how to get the values for all of these variables, except for the WhatsApp ones. That's something we will cover in a dedicated lesson. Let's begin.
+In this doc, we will show you how to get the values for all of these variables, except for the WhatsApp ones. 
+That's something we will cover in a dedicated lesson, so don't worry about it for now, **you can leave the WhatsApp variables empty**.
 
 ### Groq
 
@@ -74,6 +100,6 @@ You also need a QDRANT_URL, which is the URL of your Qdrant Cloud instance. You 
 
 Copy both values and paste them into your own `.env` file.
 
-This is everything you need to get the project up and running. Maybe you are wondering why we didn't set any of the WhatsApp variables. That's because you can still run the project without them, using the [Chainlit interface](../src/ai_companion/interfaces/chainlit/app.py).
+**This is everything you need to get the project up and running.**
 
-In Lesson 6 (the last one), we will cover, in detail, how to set up the WhatsApp interface.
+Now, let's get back to the [README.md](../README.md) file and run the project locally!!

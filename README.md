@@ -10,27 +10,20 @@
 
 ## Table of Contents
 
-- [Table of Contents](#table-of-contents)
 - [Course Overview](#course-overview)
+- [Who is this course for?](#who-is-this-course-for)
+- [What you'll get out of this course](#what-youll-get-out-of-this-course)
+- [Course syllabus](#course-syllabus)
+- [Getting started](#getting-started)
 - [The tech stack](#the-tech-stack)
-- [Course Outline](#course-outline)
-  - [🛠️ Lesson 0: Before we begin](#️-lesson-0-before-we-begin)
-  - [Written Lessons](#written-lessons)
-  - [Video Lessons](#video-lessons)
 - [Contributors](#contributors)
 - [License](#license)
 
 ## Course Overview
 
-<p align="center">
-    <img alt="logo" src="img/ex_machina_faceswap.jpg" width=400 />
-</p>
-
 What happens when [two ML Engineers](#contributors) with a love for sci-fi movies team up? 🤔
 
 You get **Ava**, a Whatsapp agent that can engage with users in a "realistic" way, inspired by the great film [Ex Machina](https://www.imdb.com/es-es/title/tt0470752/). Ok, you won't find a fully sentient robot here, but you **will** have some pretty interesting Whatsapp conversations.
-
->You can think of it as a modern reinterpretation of the Turing Test 🤣
 
 By the end of this course, you'll have built your own Ava too, capable of:
 
@@ -42,7 +35,137 @@ By the end of this course, you'll have built your own Ava too, capable of:
 * Sharing updates about its "daily activities" 🚣
 * Sending you images of its current activities 🖼️
 
+>You can think of it as a modern reinterpretation of the Turing Test 🤣
+
 Excited? Let's get started! 
+
+---
+
+<table style="border-collapse: collapse; border: none;">
+  <tr style="border: none;">
+    <td width="20%" style="border: none;">
+      <a href="https://theneuralmaze.substack.com/" aria-label="The Neural Maze">
+        <img src="https://avatars.githubusercontent.com/u/151655127?s=400&u=2fff53e8c195ac155e5c8ee65c6ba683a72e655f&v=4" alt="The Neural Maze Logo" width="150"/>
+      </a>
+    </td>
+    <td width="80%" style="border: none;">
+      <div>
+        <h2>📬 Stay Updated</h2>
+        <p><b><a href="https://theneuralmaze.substack.com/">Join The Neural Maze</a></b> and learn to build AI Systems that actually work, from principles to production. Every Wednesday, directly to your inbox. Don't miss out!
+</p>
+      </div>
+    </td>
+  </tr>
+</table>
+
+<p align="center">
+  <a href="https://theneuralmaze.substack.com/">
+    <img src="https://img.shields.io/static/v1?label&logo=substack&message=Subscribe Now&style=for-the-badge&color=black&scale=2" alt="Subscribe Now" height="40">
+  </a>
+</p>
+
+---
+
+## Who is this course for?
+
+This course is for Software Engineers, ML Engineers, and AI Engineers who want to level up by building complex end-to-end apps. It's not just a basic "Hello World" tutorial—it's a deep dive into making a production-ready WhatsApp agent.
+
+## What you'll get out of this course
+
+* Build a fully working WhatsApp agent you can chat with on your phone
+* Get a solid understanding of how to build LangGraph workflows
+* Set up a long-term memory system using Qdrant as a Vector Database
+* Use Groq models to power AI Agent responses
+* Implement STT systems using Whisper
+* Implement TTS systems using ElevenLabs
+* Generate high-quality images using diffusion models, like FLUX models
+* Process images using VLM models, like llama-3.2-vision
+* Create chat interfaces using Chainlit
+* Deploy agentic applications to Cloud Run
+* Connect agentic applications to the WhatsApp API
+
+## Course syllabus
+
+<table style="width:100%; border-collapse: collapse;">
+  <tr>
+    <th style="border: 1px solid #ddd; padding: 8px; text-align: center;">Lesson Number</th>
+    <th style="border: 1px solid #ddd; padding: 8px; text-align: center;">Lesson</th>
+    <th style="border: 1px solid #ddd; padding: 8px; text-align: center;">Video</th>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">1</td>
+    <td style="border: 1px solid #ddd; padding: 8px; text-align: center;"><a href="https://theneuralmaze.substack.com/p/meet-ava-the-whatsapp-agent">Project overview</a></td>
+    <td style="border: 1px solid #ddd; padding: 8px; text-align: center;"><a href="https://youtu.be/u5y06cFK2WA?si=RCx__sJNtr2DYf0U"><img src="img/video_thumbnails/thumbnail_1_play.png" alt="Thumbnail 1" style="width:300px;"></td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">2</td>
+    <td style="border: 1px solid #ddd; padding: 8px; text-align: center;"><a href="https://theneuralmaze.substack.com/p/dissecting-avas-brain">Dissecting Ava's brain</a></td>
+    <td style="border: 1px solid #ddd; padding: 8px; text-align: center;"><a href="https://youtu.be/nTsLL3htkCU?si=aSmSkpL-U3rzw9Za"><img src="img/video_thumbnails/thumbnail_2_play.png" alt="Thumbnail 2" style="width:300px;"></td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">3</td>
+    <td style="border: 1px solid #ddd; padding: 8px; text-align: center;"><a href="https://theneuralmaze.substack.com/p/can-agents-get-nostalgic-about-the">Unlocking Ava's memories</a></td>
+    <td style="border: 1px solid #ddd; padding: 8px; text-align: center;"><a href="https://youtu.be/oTHqYEpdFXg?si=MXEvjUJ8Xbc6h9l2"><img src="img/video_thumbnails/thumbnail_3_play.png" alt="Thumbnail 3" style="width:300px;"></td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">4</td>
+    <td style="border: 1px solid #ddd; padding: 8px; text-align: center;"><a href="https://theneuralmaze.substack.com/p/the-ultimate-ai-voice-pipeline">Giving Ava a Voice</a></td>
+    <td style="border: 1px solid #ddd; padding: 8px; text-align: center;"><a href="https://youtu.be/RNmwvMjtIt0"><img src="img/video_thumbnails/thumbnail_4_play.png" alt="Thumbnail 4" style="width:300px;"></td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">5</td>
+    <td style="border: 1px solid #ddd; padding: 8px; text-align: center;"><a href="https://theneuralmaze.substack.com/p/reading-images-drawing-dreams-vlms">Ava learns to see</a></td>
+    <td style="border: 1px solid #ddd; padding: 8px; text-align: center;"><a href="https://youtu.be/LS7k-XFBbeo"><img src="img/video_thumbnails/thumbnail_5_play.png" alt="Thumbnail 5" style="width:300px;"></td>
+  </tr>
+  <tr>
+    <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">6</td>
+    <td style="border: 1px solid #ddd; padding: 8px; text-align: center;"><a href="https://theneuralmaze.substack.com/p/connecting-an-ai-agent-to-whatsap">Ava installs Whatsapp</a></td>
+    <td style="border: 1px solid #ddd; padding: 8px; text-align: center;"><a href="https://youtu.be/dFsI4lnUkKo"><img src="img/video_thumbnails/thumbnail_6_play.png" alt="Thumbnail 6" style="width:300px;"></td>
+  </tr>
+</table>
+
+---
+
+## How much is this going to cost me?
+
+The awesome thing about this project is you can run it on your own computer for free! The free tiers from Groq, ElevenLabs, Qdrant Cloud, and Together AI are more than enough to get you going.
+
+If you want to try it out on Google Cloud Run, you can get a free account and get $300 in free credits. Even if you've already used up your free credits, Cloud Run is super cheap - so it will take just a buck or two for your experiments.
+
+---
+
+## Getting started
+
+Before you begin the course, there are a few things you need to do. Creating a virtual environment, installing the dependencies, creating a `.env` file, setting up accounts with the services we'll use, etc.
+
+All of this is detailed in the following doc: [GETTING STARTED.md](docs/GETTING_STARTED.md).
+
+> Make sure you follow the instructions in the doc, as it's crucial for the course to work.
+
+Once you have everything set up, it's time to run the project locally. This is the best way to check that everything is working before moving on to the next lesson.
+
+To run the project locally, we have created a [Makefile](Makefile). Use the command `ava-run` to start the project.
+
+```bash
+make ava-run
+```
+
+This command will start a Docker Compose application with three services:
+
+* A Qdrant Database (http://localhost:6333/dashboard)
+* A Chainlit interface (http://localhost:8000)
+* A FastAPI application (http://localhost:8080/docs)
+
+The FastAPI application is necessary for the WhatsApp integration, but that's something we will cover in Lesson 6. So, for now,
+you can ignore it. Simply click the link to the Chainlit interface to start interacting with Ava.
+
+You should see something like this:
+
+![Ava Chainlit](img/ava_chainlit.png)
+
+Now that you have everything running, it's time to move on to the first lesson, where you'll understand the architecture behind Ava.
+
+---
 
 ## The tech stack
 
@@ -77,51 +200,12 @@ Excited? Let's get started!
   </tr>
 </table>
 
-## Course Outline
-
-This course is divided into 6 lessons. Each lesson is a step forward in building Ava, and it has a written and video version. These two versions are complementary, so we recommend you to go through both, as it will improve your learning experience. Don't forget to check the [Before we start](#before-we-start) section to get everything ready for the course.
-
----
-
-### Written Lessons
-
-<div align="center">
-
-| Lesson | Article Link |
-|--------|--------------|
-| [Lesson 1: Project overview](https://theneuralmaze.substack.com/p/meet-ava-the-whatsapp-agent) | <a href="https://theneuralmaze.substack.com/p/meet-ava-the-whatsapp-agent"><img src="img/lesson1.gif" width="400" alt="Read the article"/></a> |
-| [Lesson 2: Dissecting Ava's brain](https://theneuralmaze.substack.com/p/dissecting-avas-brain) | <a href="https://theneuralmaze.substack.com/p/dissecting-avas-brain"><img src="img/lesson2.gif" width="400" alt="Read the article"/></a> |
-| [Lesson 3: Unlocking Ava's memories](https://theneuralmaze.substack.com/p/can-agents-get-nostalgic-about-the) | <a href="https://theneuralmaze.substack.com/p/can-agents-get-nostalgic-about-the"><img src="img/lesson3.gif" width="400" alt="Read the article"/></a> |
-| [Lesson 4: Giving Ava a Voice](https://theneuralmaze.substack.com/p/the-ultimate-ai-voice-pipeline) | <a href="https://theneuralmaze.substack.com/p/the-ultimate-ai-voice-pipeline"><img src="img/lesson4.gif" width="400" alt="Read the article"/></a> |
-| [Lesson 5: Ava learns to see](https://theneuralmaze.substack.com/p/reading-images-drawing-dreams-vlms) | <a href="https://theneuralmaze.substack.com/p/reading-images-drawing-dreams-vlms"><img src="img/lesson5.gif" width="400" alt="Read the article"/></a> |
-| [Lesson 6: Ava installs Whatsapp](https://theneuralmaze.substack.com/p/connecting-an-ai-agent-to-whatsap) | <a href="https://theneuralmaze.substack.com/p/connecting-an-ai-agent-to-whatsap"><img src="img/lesson6.gif" width="400" alt="Read the article"/></a> |
-
-</div>
-
----
-
-### Video Lessons
-
-<div align="center">
-
-| Lesson | Video Link |
-|--------|------------|
-| [Lesson 1: Project overview](https://youtu.be/u5y06cFK2WA?si=RCx__sJNtr2DYf0U) | <a href="https://youtu.be/u5y06cFK2WA?si=RCx__sJNtr2DYf0U"><img src="img/video_thumbnails/thumbnail_1_play.png" width="400" alt="Watch the video"/></a> |
-| [Lesson 2: Dissecting Ava's brain](https://youtu.be/nTsLL3htkCU?si=aSmSkpL-U3rzw9Za) | <a href="https://youtu.be/nTsLL3htkCU?si=aSmSkpL-U3rzw9Za"><img src="img/video_thumbnails/thumbnail_2_play.png" width="400" alt="Watch the video"/></a> |
-| [Lesson 3: Unlocking Ava's memories](https://youtu.be/oTHqYEpdFXg?si=MXEvjUJ8Xbc6h9l2) | <a href="https://youtu.be/oTHqYEpdFXg?si=MXEvjUJ8Xbc6h9l2"><img src="img/video_thumbnails/thumbnail_3_play.png" width="400" alt="Watch the video"/></a> |
-| [Lesson 4: Giving Ava a Voice](https://youtu.be/RNmwvMjtIt0) | <a href="https://youtu.be/RNmwvMjtIt0"><img src="img/video_thumbnails/thumbnail_4_play.png" width="400" alt="Watch the video"/></a> |
-| [Lesson 5: Ava learns to see](https://youtu.be/LS7k-XFBbeo) | <a href="https://youtu.be/LS7k-XFBbeo"><img src="img/video_thumbnails/thumbnail_5_play.png" width="400" alt="Watch the video"/></a> |
-| [Lesson 6: Ava installs Whatsapp](https://youtu.be/dFsI4lnUkKo) | <a href="https://youtu.be/dFsI4lnUkKo"><img src="img/video_thumbnails/thumbnail_6_play.png" width="400" alt="Watch the video"/></a> |
-
-</div>
-
----
 
 ## Contributors
 
 <table>
   <tr>
-    <td><img src="https://github.com/MichaelisTrofficus.png" width="100" style="border-radius:50%;"/></td>
+    <td align="center"><img src="https://github.com/MichaelisTrofficus.png" width="100" style="border-radius:50%;"/></td>
     <td>
       <strong>Miguel Otero Pedrido | Senior ML / AI Engineer </strong><br />
       <i>Founder of The Neural Maze. Rick and Morty fan.</i><br /><br />
@@ -131,7 +215,7 @@ This course is divided into 6 lessons. Each lesson is a step forward in building
     </td>
   </tr>
   <tr>
-    <td><img src="https://github.com/jesuscopado.png" width="100" style="border-radius:50%;"/></td>
+    <td align="center"><img src="https://github.com/jesuscopado.png" width="100" style="border-radius:50%;"/></td>
     <td>
       <strong>Jesús Copado | Senior ML / AI Engineer </strong><br />
       <i>Equal parts cinema fan and AI enthusiast.</i><br /><br />
@@ -144,3 +228,28 @@ This course is divided into 6 lessons. Each lesson is a step forward in building
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+<table style="border-collapse: collapse; border: none;">
+  <tr style="border: none;">
+    <td width="20%" style="border: none;">
+      <a href="https://theneuralmaze.substack.com/" aria-label="The Neural Maze">
+        <img src="https://avatars.githubusercontent.com/u/151655127?s=400&u=2fff53e8c195ac155e5c8ee65c6ba683a72e655f&v=4" alt="The Neural Maze Logo" width="150"/>
+      </a>
+    </td>
+    <td width="80%" style="border: none;">
+      <div>
+        <h2>📬 Stay Updated</h2>
+        <p><b><a href="https://theneuralmaze.substack.com/">Join The Neural Maze</a></b> and learn to build AI Systems that actually work, from principles to production. Every Wednesday, directly to your inbox. Don't miss out!
+</p>
+      </div>
+    </td>
+  </tr>
+</table>
+
+<p align="center">
+  <a href="https://theneuralmaze.substack.com/">
+    <img src="https://img.shields.io/static/v1?label&logo=substack&message=Subscribe Now&style=for-the-badge&color=black&scale=2" alt="Subscribe Now" height="40">
+  </a>
+</p>

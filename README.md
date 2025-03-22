@@ -40,7 +40,7 @@ By the end of this course, you'll have built your own Ava too, capable of:
 Excited? Let's get started! 
 
 <div style="text-align: center;">
-    <video src="https://github.com/user-attachments/assets/6d1abefc-b4d8-4f66-9db6-a0e54b8df944" controls></video>
+    <video src="https://github.com/user-attachments/assets/6d1abefc-b4d8-4f66-9db6-a0e54b8df944" controls width="100%"></video>
 </div>
 
 ---

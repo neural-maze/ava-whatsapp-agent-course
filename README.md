@@ -86,44 +86,6 @@ This course is for Software Engineers, ML Engineers, and AI Engineers who want t
 
 ## Course syllabus
 
-<table style="width:100%; border-collapse: collapse;">
-  <tr>
-    <th style="border: 1px solid #ddd; padding: 8px; text-align: center;">Lesson Number</th>
-    <th style="border: 1px solid #ddd; padding: 8px; text-align: center;">Lesson</th>
-    <th style="border: 1px solid #ddd; padding: 8px; text-align: center;">Video</th>
-  </tr>
-  <tr>
-    <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">1</td>
-    <td style="border: 1px solid #ddd; padding: 8px; text-align: center;"><a href="https://theneuralmaze.substack.com/p/meet-ava-the-whatsapp-agent">Project overview</a></td>
-    <td style="border: 1px solid #ddd; padding: 8px; text-align: center;"><a href="https://youtu.be/u5y06cFK2WA?si=RCx__sJNtr2DYf0U"><img src="img/video_thumbnails/thumbnail_1_play.png" alt="Thumbnail 1" style="width:300px;"></td>
-  </tr>
-  <tr>
-    <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">2</td>
-    <td style="border: 1px solid #ddd; padding: 8px; text-align: center;"><a href="https://theneuralmaze.substack.com/p/dissecting-avas-brain">Dissecting Ava's brain</a></td>
-    <td style="border: 1px solid #ddd; padding: 8px; text-align: center;"><a href="https://youtu.be/nTsLL3htkCU?si=aSmSkpL-U3rzw9Za"><img src="img/video_thumbnails/thumbnail_2_play.png" alt="Thumbnail 2" style="width:300px;"></td>
-  </tr>
-  <tr>
-    <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">3</td>
-    <td style="border: 1px solid #ddd; padding: 8px; text-align: center;"><a href="https://theneuralmaze.substack.com/p/can-agents-get-nostalgic-about-the">Unlocking Ava's memories</a></td>
-    <td style="border: 1px solid #ddd; padding: 8px; text-align: center;"><a href="https://youtu.be/oTHqYEpdFXg?si=MXEvjUJ8Xbc6h9l2"><img src="img/video_thumbnails/thumbnail_3_play.png" alt="Thumbnail 3" style="width:300px;"></td>
-  </tr>
-  <tr>
-    <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">4</td>
-    <td style="border: 1px solid #ddd; padding: 8px; text-align: center;"><a href="https://theneuralmaze.substack.com/p/the-ultimate-ai-voice-pipeline">Giving Ava a Voice</a></td>
-    <td style="border: 1px solid #ddd; padding: 8px; text-align: center;"><a href="https://youtu.be/RNmwvMjtIt0"><img src="img/video_thumbnails/thumbnail_4_play.png" alt="Thumbnail 4" style="width:300px;"></td>
-  </tr>
-  <tr>
-    <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">5</td>
-    <td style="border: 1px solid #ddd; padding: 8px; text-align: center;"><a href="https://theneuralmaze.substack.com/p/reading-images-drawing-dreams-vlms">Ava learns to see</a></td>
-    <td style="border: 1px solid #ddd; padding: 8px; text-align: center;"><a href="https://youtu.be/LS7k-XFBbeo"><img src="img/video_thumbnails/thumbnail_5_play.png" alt="Thumbnail 5" style="width:300px;"></td>
-  </tr>
-  <tr>
-    <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">6</td>
-    <td style="border: 1px solid #ddd; padding: 8px; text-align: center;"><a href="https://theneuralmaze.substack.com/p/connecting-an-ai-agent-to-whatsap">Ava installs Whatsapp</a></td>
-    <td style="border: 1px solid #ddd; padding: 8px; text-align: center;"><a href="https://youtu.be/dFsI4lnUkKo"><img src="img/video_thumbnails/thumbnail_6_play.png" alt="Thumbnail 6" style="width:300px;"></td>
-  </tr>
-</table>
-
 | Lesson Number | Lesson | Video | Description |
 |---------------|--------|-------|-------------|
 | 1 | [Project overview](https://theneuralmaze.substack.com/p/meet-ava-the-whatsapp-agent) | <a href="https://youtu.be/u5y06cFK2WA?si=RCx__sJNtr2DYf0U"><img src="img/video_thumbnails/thumbnail_1_play.png" alt="Thumbnail 1" width="300"></a> | Understand the project architecture and the tech stack. |
@@ -131,7 +93,7 @@ This course is for Software Engineers, ML Engineers, and AI Engineers who want t
 | 3 | [Unlocking Ava's memories](https://theneuralmaze.substack.com/p/can-agents-get-nostalgic-about-the) | <a href="https://youtu.be/oTHqYEpdFXg?si=MXEvjUJ8Xbc6h9l2"><img src="img/video_thumbnails/thumbnail_3_play.png" alt="Thumbnail 3" width="300"></a> | Build a short-term memory system for graph state persistence and chat history. Also, implement a long-term memory system using Qdrant. |
 | 4 | [Giving Ava a Voice](https://theneuralmaze.substack.com/p/the-ultimate-ai-voice-pipeline) | <a href="https://youtu.be/RNmwvMjtIt0"><img src="img/video_thumbnails/thumbnail_4_play.png" alt="Thumbnail 4" width="300"></a> | Build a STT and a TTS pipeline to make Ava process input and output audio. |
 | 5 | [Ava learns to see](https://theneuralmaze.substack.com/p/reading-images-drawing-dreams-vlms) | <a href="https://youtu.be/LS7k-XFBbeo"><img src="img/video_thumbnails/thumbnail_5_play.png" alt="Thumbnail 5" width="300"></a> | Understand how to process images using VLM models. Implement an image generation pipeline using FLUX models. |
-| 6 | [Ava installs Whatsapp](https://theneuralmaze.substack.com/p/connecting-an-ai-agent-to-whatsap) | <a href="https://youtu.be/dFsI4lnUkKo"><img src="img/video_thumbnails/thumbnail_6_play.png" alt="Thumbnail 6" width="300"></a> | Connect Ava to WhatsApp. Learn how to deploy a LangGraph application to Google Cloud Run. |
+| 6 | [Ava installs Whatsapp](https://theneuralmaze.substack.com/p/connecting-an-ai-agent-to-whatsapp) | <a href="https://youtu.be/dFsI4lnUkKo"><img src="img/video_thumbnails/thumbnail_6_play.png" alt="Thumbnail 6" width="300"></a> | Connect Ava to WhatsApp. Learn how to deploy a LangGraph application to Google Cloud Run. |
 
 ---
 

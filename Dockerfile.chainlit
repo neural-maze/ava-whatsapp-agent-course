@@ -33,7 +33,7 @@ RUN uv pip install -e .
 VOLUME ["/app/data"]
 
 # Expose the port
-EXPOSE 8080
+EXPOSE 8000
 
 # Run the FastAPI app using uvicorn
 CMD ["chainlit", "run", "ai_companion/interfaces/chainlit/app.py", "--port", "8000", "--host", "0.0.0.0"]

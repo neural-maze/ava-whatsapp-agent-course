@@ -86,8 +86,8 @@ This course is for Software Engineers, ML Engineers, and AI Engineers who want t
 
 ## Course syllabus
 
-| Lesson Number | Lesson | Video | Description |
-|---------------|--------|-------|-------------|
+| Lesson Number | Written Lesson | Video Lesson | Description |
+|---------------|----------------|--------------|-------------|
 | <div align="center">1</div> | [Project overview](https://theneuralmaze.substack.com/p/meet-ava-the-whatsapp-agent) | <a href="https://youtu.be/u5y06cFK2WA?si=RCx__sJNtr2DYf0U"><img src="img/video_thumbnails/thumbnail_1_play.png" alt="Thumbnail 1" width="400"></a> | Understand the project architecture and the tech stack. |
 | <div align="center">2</div> | [Dissecting Ava's brain](https://theneuralmaze.substack.com/p/dissecting-avas-brain) | <a href="https://youtu.be/nTsLL3htkCU?si=aSmSkpL-U3rzw9Za"><img src="img/video_thumbnails/thumbnail_2_play.png" alt="Thumbnail 2" width="400"></a> | Learn the basics of LangGraph and implement complex workflows using this framework. |
 | <div align="center">3</div> | [Unlocking Ava's memories](https://theneuralmaze.substack.com/p/can-agents-get-nostalgic-about-the) | <a href="https://youtu.be/oTHqYEpdFXg?si=MXEvjUJ8Xbc6h9l2"><img src="img/video_thumbnails/thumbnail_3_play.png" alt="Thumbnail 3" width="400"></a> | Build a short-term memory system for graph state persistence and chat history. Also, implement a long-term memory system using Qdrant. |

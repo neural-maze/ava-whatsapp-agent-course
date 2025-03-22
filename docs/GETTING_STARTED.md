@@ -31,7 +31,7 @@ Just to make sure that everything is working, simply run the following command:
 The Python version should be `Python 3.12.8`.
 
 
-# Environment Variables
+# 4. Environment Variables
 
 Now that all the dependencies are installed, it's time to populate the `.env` file with the correct values.
 To help you with this, we have created a `.env.example` file that you can use as a template.
@@ -102,4 +102,29 @@ Copy both values and paste them into your own `.env` file.
 
 **This is everything you need to get the project up and running.**
 
-Now, let's get back to the [README.md](../README.md) file and run the project locally!!
+# 5. First run
+
+Once you have everything set up, it's time to run the project locally. This is the best way to check that everything is working before starting the course.
+
+To run the project locally, we have created a [Makefile](../Makefile). Use the command `ava-run` to start the project.
+
+```bash
+make ava-run
+```
+
+This command will start a Docker Compose application with three services:
+
+* A Qdrant Database (http://localhost:6333/dashboard)
+* A Chainlit interface (http://localhost:8000)
+* A FastAPI application (http://localhost:8080/docs)
+
+The FastAPI application is necessary for the WhatsApp integration, but that's something we will cover in Lesson 6. So, for now,
+you can ignore it. Simply click the link to the Chainlit interface to start interacting with Ava.
+
+You should see something like this:
+
+![Ava Chainlit](img/ava_chainlit.png)
+
+Now that we have verified that everything is working, it's time to move on to the [Course Syllabus](../README.md) and start the first lesson!
+
+> If you want to clean up the docker compose application and all the related local folders, you can run `make ava-delete`. For more info, check the [Makefile](../Makefile).

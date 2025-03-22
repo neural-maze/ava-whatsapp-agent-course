@@ -99,7 +99,9 @@ This course is for Software Engineers, ML Engineers, and AI Engineers who want t
 
 ## How much is this going to cost me?
 
-The awesome thing about this project is you can run it on your own computer for free! The free tiers from Groq, ElevenLabs, Qdrant Cloud, and Together AI are more than enough to get you going.
+The awesome thing about this project is **you can run it on your own computer for free!**
+
+The **free tiers** from Groq, ElevenLabs, Qdrant Cloud, and Together AI are more than enough to get you going.
 
 If you want to try it out on Google Cloud Run, you can get a free account and get $300 in free credits. Even if you've already used up your free credits, Cloud Run is super cheap - so it will take just a buck or two for your experiments.
 
@@ -107,13 +109,15 @@ If you want to try it out on Google Cloud Run, you can get a free account and ge
 
 ## Getting started
 
-Before you begin the course, there are a few things you need to do. Creating a virtual environment, installing the dependencies, creating a `.env` file, setting up accounts with the services we'll use, etc.
+Before you begin the course, there are a few things you need to do. 
+
+I'm referring to the virtual environment creation, dependencies installation, `.env` file creation, etc. I know, it's very boring, but it's a necessary evil! 😅
 
 All of this is detailed in the following doc: [GETTING STARTED.md](docs/GETTING_STARTED.md).
 
 > Make sure you follow the instructions in the doc, as it's crucial for the course to work.
 
-Once you have everything set up, it's time to run the project locally. This is the best way to check that everything is working before moving on to the next lesson.
+Once you have everything set up, it's time to run the project locally. This is the best way to check that everything is working before starting the course.
 
 To run the project locally, we have created a [Makefile](Makefile). Use the command `ava-run` to start the project.
 
@@ -134,7 +138,9 @@ You should see something like this:
 
 ![Ava Chainlit](img/ava_chainlit.png)
 
-Now that you have everything running, it's time to move on to the first lesson, where you'll understand the architecture behind Ava.
+Now that we have verified that everything is working, it's time to move on to **Lesson 1**, where you'll be introduced to the architecture behind Ava.
+
+> If you want to clean up the docker compose application and all the related local folders, you can run `make ava-delete`. For more info, check the [Makefile](Makefile).
 
 ---
 

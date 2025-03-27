@@ -48,18 +48,14 @@ class VectorStore:
         if not self._initialized:
             self._validate_env_vars()
             self.model = SentenceTransformer(self.EMBEDDING_MODEL)
-            self.client = QdrantClient(
-                url=settings.QDRANT_URL, api_key=settings.QDRANT_API_KEY
-            )
+            self.client = QdrantClient(url=settings.QDRANT_URL, api_key=settings.QDRANT_API_KEY)
             self._initialized = True
 
     def _validate_env_vars(self) -> None:
         """Validate that all required environment variables are set."""
         missing_vars = [var for var in self.REQUIRED_ENV_VARS if not os.getenv(var)]
         if missing_vars:
-            raise ValueError(
-                f"Missing required environment variables: {', '.join(missing_vars)}"
-            )
+            raise ValueError(f"Missing required environment variables: {', '.join(missing_vars)}")
 
     def _collection_exists(self) -> bool:
         """Check if the memory collection exists."""

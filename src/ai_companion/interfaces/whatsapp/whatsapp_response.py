@@ -67,9 +67,7 @@ async def whatsapp_handler(request: Request) -> Response:
                 content = message["text"]["body"]
 
             # Process message through the graph agent
-            async with AsyncSqliteSaver.from_conn_string(
-                settings.SHORT_TERM_MEMORY_DB_PATH
-            ) as short_term_memory:
+            async with AsyncSqliteSaver.from_conn_string(settings.SHORT_TERM_MEMORY_DB_PATH) as short_term_memory:
                 graph = graph_builder.compile(checkpointer=short_term_memory)
                 await graph.ainvoke(
                     {"messages": [HumanMessage(content=content)]},
@@ -77,9 +75,7 @@ async def whatsapp_handler(request: Request) -> Response:
                 )
 
                 # Get the workflow type and response from the state
-                output_state = await graph.aget_state(
-                    config={"configurable": {"thread_id": session_id}}
-                )
+                output_state = await graph.aget_state(config={"configurable": {"thread_id": session_id}})
 
             workflow = output_state.values.get("workflow", "conversation")
             response_message = output_state.values["messages"][-1].content
@@ -87,16 +83,12 @@ async def whatsapp_handler(request: Request) -> Response:
             # Handle different response types based on workflow
             if workflow == "audio":
                 audio_buffer = output_state.values["audio_buffer"]
-                success = await send_response(
-                    from_number, response_message, "audio", audio_buffer
-                )
+                success = await send_response(from_number, response_message, "audio", audio_buffer)
             elif workflow == "image":
                 image_path = output_state.values["image_path"]
                 with open(image_path, "rb") as f:
                     image_data = f.read()
-                success = await send_response(
-                    from_number, response_message, "image", image_data
-                )
+                success = await send_response(from_number, response_message, "image", image_data)
             else:
                 success = await send_response(from_number, response_message, "text")
 

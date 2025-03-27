@@ -18,9 +18,7 @@ class MemoryAnalysis(BaseModel):
         ...,
         description="Whether the message is important enough to be stored as a memory",
     )
-    formatted_memory: Optional[str] = Field(
-        ..., description="The formatted memory to be stored"
-    )
+    formatted_memory: Optional[str] = Field(..., description="The formatted memory to be stored")
 
 
 class MemoryManager:
@@ -53,9 +51,7 @@ class MemoryManager:
             similar = self.vector_store.find_similar_memory(analysis.formatted_memory)
             if similar:
                 # Skip storage if we already have a similar memory
-                self.logger.info(
-                    f"Similar memory already exists: '{analysis.formatted_memory}'"
-                )
+                self.logger.info(f"Similar memory already exists: '{analysis.formatted_memory}'")
                 return
 
             # Store new memory
@@ -73,9 +69,7 @@ class MemoryManager:
         memories = self.vector_store.search_memories(context, k=settings.MEMORY_TOP_K)
         if memories:
             for memory in memories:
-                self.logger.debug(
-                    f"Memory: '{memory.text}' (score: {memory.score:.2f})"
-                )
+                self.logger.debug(f"Memory: '{memory.text}' (score: {memory.score:.2f})")
         return [memory.text for memory in memories]
 
     def format_memories_for_prompt(self, memories: List[str]) -> str:

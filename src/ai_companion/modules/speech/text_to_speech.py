@@ -21,9 +21,7 @@ class TextToSpeech:
         """Validate that all required environment variables are set."""
         missing_vars = [var for var in self.REQUIRED_ENV_VARS if not os.getenv(var)]
         if missing_vars:
-            raise ValueError(
-                f"Missing required environment variables: {', '.join(missing_vars)}"
-            )
+            raise ValueError(f"Missing required environment variables: {', '.join(missing_vars)}")
 
     @property
     def client(self) -> ElevenLabs:
@@ -69,6 +67,4 @@ class TextToSpeech:
             return audio_bytes
 
         except Exception as e:
-            raise TextToSpeechError(
-                f"Text-to-speech conversion failed: {str(e)}"
-            ) from e
+            raise TextToSpeechError(f"Text-to-speech conversion failed: {str(e)}") from e

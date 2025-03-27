@@ -22,9 +22,7 @@ class SpeechToText:
         """Validate that all required environment variables are set."""
         missing_vars = [var for var in self.REQUIRED_ENV_VARS if not os.getenv(var)]
         if missing_vars:
-            raise ValueError(
-                f"Missing required environment variables: {', '.join(missing_vars)}"
-            )
+            raise ValueError(f"Missing required environment variables: {', '.join(missing_vars)}")
 
     @property
     def client(self) -> Groq:
@@ -75,6 +73,4 @@ class SpeechToText:
                 os.unlink(temp_file_path)
 
         except Exception as e:
-            raise SpeechToTextError(
-                f"Speech-to-text conversion failed: {str(e)}"
-            ) from e
+            raise SpeechToTextError(f"Speech-to-text conversion failed: {str(e)}") from e

@@ -15,12 +15,8 @@ from together import Together
 class ScenarioPrompt(BaseModel):
     """Class for the scenario response"""
 
-    narrative: str = Field(
-        ..., description="The AI's narrative response to the question"
-    )
-    image_prompt: str = Field(
-        ..., description="The visual prompt to generate an image representing the scene"
-    )
+    narrative: str = Field(..., description="The AI's narrative response to the question")
+    image_prompt: str = Field(..., description="The visual prompt to generate an image representing the scene")
 
 
 class EnhancedPrompt(BaseModel):
@@ -47,9 +43,7 @@ class TextToImage:
         """Validate that all required environment variables are set."""
         missing_vars = [var for var in self.REQUIRED_ENV_VARS if not os.getenv(var)]
         if missing_vars:
-            raise ValueError(
-                f"Missing required environment variables: {', '.join(missing_vars)}"
-            )
+            raise ValueError(f"Missing required environment variables: {', '.join(missing_vars)}")
 
     @property
     def together_client(self) -> Together:
@@ -92,9 +86,7 @@ class TextToImage:
     async def create_scenario(self, chat_history: list = None) -> ScenarioPrompt:
         """Creates a first-person narrative scenario and corresponding image prompt based on chat history."""
         try:
-            formatted_history = "\n".join(
-                [f"{msg.type.title()}: {msg.content}" for msg in chat_history[-5:]]
-            )
+            formatted_history = "\n".join([f"{msg.type.title()}: {msg.content}" for msg in chat_history[-5:]])
 
             self.logger.info("Creating scenario from chat history")
 

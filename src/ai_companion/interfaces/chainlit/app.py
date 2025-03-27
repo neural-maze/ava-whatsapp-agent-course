@@ -51,23 +51,17 @@ async def on_message(message: cl.Message):
     thread_id = cl.user_session.get("thread_id")
 
     async with cl.Step(type="run"):
-        async with AsyncSqliteSaver.from_conn_string(
-            settings.SHORT_TERM_MEMORY_DB_PATH
-        ) as short_term_memory:
+        async with AsyncSqliteSaver.from_conn_string(settings.SHORT_TERM_MEMORY_DB_PATH) as short_term_memory:
             graph = graph_builder.compile(checkpointer=short_term_memory)
             async for chunk in graph.astream(
                 {"messages": [HumanMessage(content=content)]},
                 {"configurable": {"thread_id": thread_id}},
                 stream_mode="messages",
             ):
-                if chunk[1]["langgraph_node"] == "conversation_node" and isinstance(
-                    chunk[0], AIMessageChunk
-                ):
+                if chunk[1]["langgraph_node"] == "conversation_node" and isinstance(chunk[0], AIMessageChunk):
                     await msg.stream_token(chunk[0].content)
 
-            output_state = await graph.aget_state(
-                config={"configurable": {"thread_id": thread_id}}
-            )
+            output_state = await graph.aget_state(config={"configurable": {"thread_id": thread_id}})
 
     if output_state.values.get("workflow") == "audio":
         response = output_state.values["messages"][-1].content
@@ -108,18 +102,14 @@ async def on_audio_end(elements):
 
     # Show user's audio message
     input_audio_el = cl.Audio(mime="audio/mpeg3", content=audio_data)
-    await cl.Message(
-        author="You", content="", elements=[input_audio_el, *elements]
-    ).send()
+    await cl.Message(author="You", content="", elements=[input_audio_el, *elements]).send()
 
     # Use global SpeechToText instance
     transcription = await speech_to_text.transcribe(audio_data)
 
     thread_id = cl.user_session.get("thread_id")
 
-    async with AsyncSqliteSaver.from_conn_string(
-        settings.SHORT_TERM_MEMORY_DB_PATH
-    ) as short_term_memory:
+    async with AsyncSqliteSaver.from_conn_string(settings.SHORT_TERM_MEMORY_DB_PATH) as short_term_memory:
         graph = graph_builder.compile(checkpointer=short_term_memory)
         output_state = await graph.ainvoke(
             {"messages": [HumanMessage(content=transcription)]},
@@ -135,6 +125,4 @@ async def on_audio_end(elements):
         mime="audio/mpeg3",
         content=audio_buffer,
     )
-    await cl.Message(
-        content=output_state["messages"][-1].content, elements=[output_audio_el]
-    ).send()
+    await cl.Message(content=output_state["messages"][-1].content, elements=[output_audio_el]).send()

@@ -21,9 +21,7 @@ from ai_companion.settings import settings
 
 async def router_node(state: AICompanionState):
     chain = get_router_chain()
-    response = await chain.ainvoke(
-        {"messages": state["messages"][-settings.ROUTER_MESSAGES_TO_ANALYZE :]}
-    )
+    response = await chain.ainvoke({"messages": state["messages"][-settings.ROUTER_MESSAGES_TO_ANALYZE :]})
     return {"workflow": response.response_type}
 
 
@@ -66,9 +64,7 @@ async def image_node(state: AICompanionState, config: RunnableConfig):
     await text_to_image_module.generate_image(scenario.image_prompt, img_path)
 
     # Inject the image prompt information as an AI message
-    scenario_message = HumanMessage(
-        content=f"<image attached by Ava generated from prompt: {scenario.image_prompt}>"
-    )
+    scenario_message = HumanMessage(content=f"<image attached by Ava generated from prompt: {scenario.image_prompt}>")
     updated_messages = state["messages"] + [scenario_message]
 
     response = await chain.ainvoke(
@@ -122,10 +118,7 @@ async def summarize_conversation_node(state: AICompanionState):
     messages = state["messages"] + [HumanMessage(content=summary_message)]
     response = await model.ainvoke(messages)
 
-    delete_messages = [
-        RemoveMessage(id=m.id)
-        for m in state["messages"][: -settings.TOTAL_MESSAGES_AFTER_SUMMARY]
-    ]
+    delete_messages = [RemoveMessage(id=m.id) for m in state["messages"][: -settings.TOTAL_MESSAGES_AFTER_SUMMARY]]
     return {"summary": response.content, "messages": delete_messages}
 
 

@@ -23,9 +23,7 @@ class ImageToText:
         """Validate that all required environment variables are set."""
         missing_vars = [var for var in self.REQUIRED_ENV_VARS if not os.getenv(var)]
         if missing_vars:
-            raise ValueError(
-                f"Missing required environment variables: {', '.join(missing_vars)}"
-            )
+            raise ValueError(f"Missing required environment variables: {', '.join(missing_vars)}")
 
     @property
     def client(self) -> Groq:
@@ -34,9 +32,7 @@ class ImageToText:
             self._client = Groq(api_key=settings.GROQ_API_KEY)
         return self._client
 
-    async def analyze_image(
-        self, image_data: Union[str, bytes], prompt: str = ""
-    ) -> str:
+    async def analyze_image(self, image_data: Union[str, bytes], prompt: str = "") -> str:
         """Analyze an image using Groq's vision capabilities.
 
         Args:
@@ -78,9 +74,7 @@ class ImageToText:
                         {"type": "text", "text": prompt},
                         {
                             "type": "image_url",
-                            "image_url": {
-                                "url": f"data:image/jpeg;base64,{base64_image}"
-                            },
+                            "image_url": {"url": f"data:image/jpeg;base64,{base64_image}"},
                         },
                     ],
                 }

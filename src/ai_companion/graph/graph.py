@@ -48,9 +48,7 @@ def create_workflow_graph():
     graph_builder.add_conditional_edges("memory_injection_node", select_workflow)
 
     # Check for summarization after any response
-    graph_builder.add_conditional_edges(
-        "conversation_node", should_summarize_conversation
-    )
+    graph_builder.add_conditional_edges("conversation_node", should_summarize_conversation)
     graph_builder.add_conditional_edges("image_node", should_summarize_conversation)
     graph_builder.add_conditional_edges("audio_node", should_summarize_conversation)
     graph_builder.add_edge("summarize_conversation_node", END)

@@ -1,8 +1,8 @@
-from ai_companion.graph.state import AICompanionState
-from ai_companion.settings import settings
-
 from langgraph.graph import END
 from typing_extensions import Literal
+
+from ai_companion.graph.state import AICompanionState
+from ai_companion.settings import settings
 
 
 def should_summarize_conversation(

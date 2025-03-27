@@ -2,13 +2,13 @@ from datetime import datetime
 from typing import Dict, Optional
 
 from ai_companion.core.schedules import (
-    MONDAY_SCHEDULE,
-    TUESDAY_SCHEDULE,
-    WEDNESDAY_SCHEDULE,
-    THURSDAY_SCHEDULE,
     FRIDAY_SCHEDULE,
+    MONDAY_SCHEDULE,
     SATURDAY_SCHEDULE,
     SUNDAY_SCHEDULE,
+    THURSDAY_SCHEDULE,
+    TUESDAY_SCHEDULE,
+    WEDNESDAY_SCHEDULE,
 )
 
 

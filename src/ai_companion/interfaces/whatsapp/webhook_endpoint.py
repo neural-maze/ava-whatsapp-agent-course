@@ -1,4 +1,5 @@
 from fastapi import FastAPI
+
 from ai_companion.interfaces.whatsapp.whatsapp_response import whatsapp_router
 
 app = FastAPI()

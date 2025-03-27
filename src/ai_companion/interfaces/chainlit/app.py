@@ -7,7 +7,6 @@ from langgraph.checkpoint.sqlite.aio import AsyncSqliteSaver
 from ai_companion.graph import graph_builder
 from ai_companion.modules.image import ImageToText
 from ai_companion.modules.speech import SpeechToText, TextToSpeech
-
 from ai_companion.settings import settings
 
 # Global module instances

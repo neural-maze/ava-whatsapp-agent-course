@@ -1,9 +1,9 @@
 import os
-from elevenlabs import ElevenLabs, Voice, VoiceSettings
 from typing import Optional
 
 from ai_companion.core.exceptions import TextToSpeechError
 from ai_companion.settings import settings
+from elevenlabs import ElevenLabs, Voice, VoiceSettings
 
 
 class TextToSpeech:

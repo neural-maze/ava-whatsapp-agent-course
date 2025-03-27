@@ -2,10 +2,9 @@ import os
 import tempfile
 from typing import Optional
 
-from groq import Groq
-
 from ai_companion.core.exceptions import SpeechToTextError
 from ai_companion.settings import settings
+from groq import Groq
 
 
 class SpeechToText:

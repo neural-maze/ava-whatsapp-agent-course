@@ -8,13 +8,13 @@ from ai_companion.graph.edges import (
 )
 from ai_companion.graph.nodes import (
     audio_node,
+    context_injection_node,
     conversation_node,
     image_node,
-    router_node,
-    summarize_conversation_node,
-    context_injection_node,
     memory_extraction_node,
     memory_injection_node,
+    router_node,
+    summarize_conversation_node,
 )
 from ai_companion.graph.state import AICompanionState
 

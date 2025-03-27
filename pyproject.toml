@@ -36,3 +36,8 @@ packages = ["src/ai_companion"]
 
 [tool.ruff]
 target-version = "py312"
+line-length = 120
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "Q", "I"]
+ignore = ["E203", "E501"]

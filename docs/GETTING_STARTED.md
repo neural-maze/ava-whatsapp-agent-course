@@ -19,7 +19,10 @@ Once uv is intalled, you can install the project dependencies. First of all, let
 
 ```bash
 uv venv .venv
+# macOS / Linux
 . .venv/bin/activate # or source .venv/bin/activate
+# Windows
+. .\.venv\Scripts\Activate.ps1 # or .\.venv\Scripts\activate
 uv pip install -e .
 ```
 Just to make sure that everything is working, simply run the following command:

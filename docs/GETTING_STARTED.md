@@ -31,7 +31,7 @@ Just to make sure that everything is working, simply run the following command:
  uv run python --version
 ```
 
-The Python version should be `Python 3.12.8`.
+The Python version should be `Python 3.12.9`.
 
 
 # 4. Environment Variables

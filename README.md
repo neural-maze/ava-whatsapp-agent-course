@@ -132,6 +132,12 @@ All of this is detailed in the following doc: [GETTING STARTED.md](docs/GETTING_
 | <div align="center">5</div> | [Ava learns to see](https://theneuralmaze.substack.com/p/reading-images-drawing-dreams-vlms) | <a href="https://youtu.be/LS7k-XFBbeo"><img src="img/video_thumbnails/thumbnail_5_play.png" alt="Thumbnail 5" width="400"></a> | Understand how to process images using VLM models. Implement an image generation pipeline using FLUX models. |
 | <div align="center">6</div> | [Ava installs Whatsapp](https://theneuralmaze.substack.com/p/connecting-an-ai-agent-to-whatsapp) | <a href="https://youtu.be/dFsI4lnUkKo"><img src="img/video_thumbnails/thumbnail_6_play.png" alt="Thumbnail 6" width="400"></a> | Connect Ava to WhatsApp. Learn how to deploy a LangGraph application to Google Cloud Run. |
 
+And if you're feeling extra brave, there's also a 2+ hour video course where we walk through all the project details and the code, step by step.
+
+<p align="center">
+    <a href="https://youtu.be/NQlYB_OMtjQ?si=OacTft8tyQzO6pwh"><img src="img/video_thumbnails/ava_full_course.png" alt="Ava Full Course" width="500"></a>
+</p>
+
 ---
 
 ## How much is this going to cost me?

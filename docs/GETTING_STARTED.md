@@ -115,7 +115,17 @@ To run the project locally, we have created a [Makefile](../Makefile). Use the c
 make ava-run
 ```
 
-This command will start a Docker Compose application with three services:
+To run the project locally using windows command prompt, you can use this code
+```bash
+run.bat ava-run
+```
+
+To run the project locally using windows powershell, you can use this code
+```bash
+.\run.ps1 ava-run
+```
+
+One of the above command will start a Docker Compose application with three services:
 
 * A Qdrant Database (http://localhost:6333/dashboard)
 * A Chainlit interface (http://localhost:8000)

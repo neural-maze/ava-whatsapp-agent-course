@@ -50,13 +50,14 @@ class TextToSpeech:
             raise ValueError("Input text exceeds maximum length of 5000 characters")
 
         try:
-            audio_generator = self.client.generate(
+            audio_generator = self.client.text_to_speech.convert(
+                voice_id=settings.ELEVENLABS_VOICE_ID,
                 text=text,
-                voice=Voice(
-                    voice_id=settings.ELEVENLABS_VOICE_ID,
-                    settings=VoiceSettings(stability=0.5, similarity_boost=0.5),
-                ),
-                model=settings.TTS_MODEL_NAME,
+                model_id=settings.TTS_MODEL_NAME,
+                voice_settings= VoiceSettings(
+                    stability=0.5,
+                    similarity_boost=0.5
+                )
             )
 
             # Convert generator to bytes

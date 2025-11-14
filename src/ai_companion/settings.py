@@ -14,12 +14,12 @@ class Settings(BaseSettings):
     QDRANT_PORT: str = "6333"
     QDRANT_HOST: str | None = None
 
-    TEXT_MODEL_NAME: str = "llama-3.3-70b-versatile"
-    SMALL_TEXT_MODEL_NAME: str = "gemma2-9b-it"
+    TEXT_MODEL_NAME: str = "openai/gpt-oss-120b" # Updated Model because old model is deprecated
+    SMALL_TEXT_MODEL_NAME: str = "openai/gpt-oss-20b" # Updated Model because old model is deprecated
     STT_MODEL_NAME: str = "whisper-large-v3-turbo"
     TTS_MODEL_NAME: str = "eleven_flash_v2_5"
     TTI_MODEL_NAME: str = "black-forest-labs/FLUX.1-schnell-Free"
-    ITT_MODEL_NAME: str = "llama-3.2-90b-vision-preview"
+    ITT_MODEL_NAME: str = "meta-llama/llama-4-maverick-17b-128e-instruct" # Updated Model because old model is deprecated
 
     MEMORY_TOP_K: int = 3
     ROUTER_MESSAGES_TO_ANALYZE: int = 3

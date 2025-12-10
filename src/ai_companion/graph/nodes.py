@@ -48,7 +48,7 @@ async def conversation_node(state: AICompanionState, config: RunnableConfig):
         },
         config,
     )
-    return {"messages": AIMessage(content=response)}
+    return {"messages": response}
 
 
 async def image_node(state: AICompanionState, config: RunnableConfig):

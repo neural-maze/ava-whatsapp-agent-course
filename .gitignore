@@ -324,3 +324,5 @@ src/ai_companion/modules/memory/short_term/*.db
 long_term_memory/
 short_term_memory/
 .langgraph_api/
+# Chainlit auto-generated translations
+.chainlit/translations/

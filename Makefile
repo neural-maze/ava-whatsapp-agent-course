@@ -6,6 +6,16 @@ include .env
 
 CHECK_DIRS := .
 
+sync: # Sync dependencies and create lock file if needed
+	uv sync
+
+setup: # Install dependencies
+	uv sync --locked
+	@mkdir -p short_term_memory long_term_memory
+
+clean: # Clean the virtual environment
+	rm -rf .venv
+
 ava-build:
 	docker compose build
 

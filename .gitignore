@@ -324,3 +324,8 @@ src/ai_companion/modules/memory/short_term/*.db
 long_term_memory/
 short_term_memory/
 .langgraph_api/
+
+ignore*
+.chainlit
+.vscode
+*.png

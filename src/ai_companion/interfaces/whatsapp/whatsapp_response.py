@@ -188,9 +188,6 @@ async def send_response(
             "text": {"body": response_text},
         }
 
-    print(headers)
-    print(json_data)
-
     async with httpx.AsyncClient() as client:
         response = await client.post(
             f"https://graph.facebook.com/v21.0/{WHATSAPP_PHONE_NUMBER_ID}/messages",
@@ -198,6 +195,7 @@ async def send_response(
             json=json_data,
         )
 
+    logger.info("WhatsApp %s response sent with status %s", message_type, response.status_code)
     return response.status_code == 200
 
 

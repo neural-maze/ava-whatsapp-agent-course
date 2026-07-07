@@ -142,9 +142,9 @@ And if you're feeling extra brave, there's also a 2+ hour video course where we 
 
 ## How much is this going to cost me?
 
-The awesome thing about this project is **you can run it on your own computer for free!**
+The awesome thing about this project is **you can run it on your own computer without cloud hosting costs!**
 
-The **free tiers** from Groq, ElevenLabs, Qdrant Cloud, and Together AI are more than enough to get you going.
+Groq, ElevenLabs, and Qdrant Cloud offer starter-friendly plans that are enough to get you going locally. Together AI is still used for image generation, but it now requires a positive prepaid credit balance before API calls will run.
 
 If you want to try it out on Google Cloud Run, you can get a free account and get $300 in free credits. Even if you've already used up your free credits, Cloud Run is super cheap - so it will take just a buck or two for your experiments.
 
@@ -159,7 +159,7 @@ If you want to try it out on Google Cloud Run, you can get a free account and ge
   </tr>
   <tr>
     <td><img src="img/groq_logo.png" width="100" alt="Groq Logo"/></td>
-    <td>Powering the project with Llama 3.3, Llama 3.2 Vision, and Whisper. Groq models are awesome (and fast!!)</td>
+    <td>Powering the project with Llama 3.3, Llama 4 Scout, and Whisper. Groq models are awesome (and fast!!)</td>
   </tr>
   <tr>
     <td><img src="img/qdrant_logo.png" width="100" alt="Qdrant Logo"/></td>

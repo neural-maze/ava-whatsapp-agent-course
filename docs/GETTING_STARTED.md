@@ -57,6 +57,13 @@ TOGETHER_API_KEY=""
 QDRANT_URL=""
 QDRANT_API_KEY=""
 
+TEXT_MODEL_NAME="llama-3.3-70b-versatile"
+SMALL_TEXT_MODEL_NAME="llama-3.1-8b-instant"
+STT_MODEL_NAME="whisper-large-v3-turbo"
+TTS_MODEL_NAME="eleven_flash_v2_5"
+TTI_MODEL_NAME="black-forest-labs/FLUX.1-schnell-Free"
+ITT_MODEL_NAME="meta-llama/llama-4-scout-17b-16e-instruct"
+
 WHATSAPP_PHONE_NUMBER_ID = ""
 WHATSAPP_TOKEN = ""
 WHATSAPP_VERIFY_TOKEN = ""
@@ -83,7 +90,7 @@ As for the voice ID, you can check the available voices and select the one you p
 
 ### Together AI
 
-Log in to [Together AI](https://www.together.ai/) and, inside your account settings, create the API key.
+Log in to [Together AI](https://www.together.ai/) and, inside your account settings, create the API key. Together AI currently requires a positive prepaid credit balance before API calls will run, so add the minimum credit in Billing after creating the key.
 
 ![alt text](img/together_api_key.png)
 
